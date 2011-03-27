@@ -10,3 +10,12 @@ This is an open source project, so if you would like to edit it, make your own c
 Updates
 -------
 Updates are constantly being released, so be sure to check back here every few days to see if there's a new one. The message of the README will reflect the newest version, if the version on your application is different than the message on the README then click to twon folder, then bin, then release then download twon.exe for your newest version.
+
+What's next?
+------------
+I'm always trying to find a better, more reliable SMTP host to provide you with less emails getting thrown to junk boxes and faster sending times, etc.
+
+A few things I have on my to-do list are:
+- Import a .txt file with emails (1 per line) to send to
+- A nice and pretty interface
+- A bomber
