@@ -55,8 +55,8 @@ namespace WindowsFormsApplication1
                 MailMessage mail = new MailMessage();
                 mail.From = new System.Net.Mail.MailAddress(fromEmail, fromName);
                 SmtpClient smtp = new SmtpClient();
-                smtp.Port = 587;
-                smtp.Host = "relay.jangosmtp.net";
+                smtp.Port = 25;
+                smtp.Host = "mail.telus.net";
                 mail.To.Add(new MailAddress(toEmail));
                 mail.Body = msg;
                 smtp.Send(mail);
