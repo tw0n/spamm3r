@@ -14,9 +14,7 @@ Updates are constantly being released, so be sure to check back here every few d
 What's next?
 ------------
 I'm always trying to find a better, more reliable SMTP host to provide you with less emails getting thrown to junk boxes and faster sending times, etc.
-
 A few things I have on my to-do list are:
-
 - Import a .txt file with emails (1 per line) to send to
 
 - A nice and pretty interface
