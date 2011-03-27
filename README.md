@@ -11,11 +11,9 @@ Updates
 -------
 Updates are constantly being released, so be sure to check back here every few days to see if there's a new one. The message of the files will relate to the current version. So if the version displayed in your application is different than what is displayed in the message here, it's time to update.
 
-How to update?
---------------
-Click the downloads button, then click twon.exe - that will always be the up to date version and is a lot easier if you just want the application and not the source code.
+To update, click the downloads button, then click twon.exe - that will always be the up to date version and is a lot easier if you just want the application and not the source code.
 
-What's next?
+But wait, there's moar!!111
 ------------
 I'm always trying to find a better, more reliable SMTP host to provide you with less emails getting thrown to junk boxes and faster sending times, etc.
 A few things I have on my to-do list are:
