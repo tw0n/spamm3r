@@ -1,4 +1,5 @@
-Changelog
---------
-#2011-03-27
-Initial application is released to the world! :]
+# Ghtdoc Readme File
+
+## Welcome to ghtdoc.
+This readme file is used to demonstrate how we can use a docs branch to maintain documentation
+files accross multiple branches and even repositories in git.
