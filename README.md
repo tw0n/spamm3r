@@ -9,7 +9,11 @@ This is an open source project, so if you would like to edit it, make your own c
 
 Updates
 -------
-Updates are constantly being released, so be sure to check back here every few days to see if there's a new one. The message of the README will reflect the newest version, if the version on your application is different than the message on the README then click to twon folder, then bin, then release then download twon.exe for your newest version.
+Updates are constantly being released, so be sure to check back here every few days to see if there's a new one. The message of the files will relate to the current version. So if the version displayed in your application is different than what is displayed in the message here, it's time to update.
+
+How to update?
+--------------
+Click the downloads button, then click twon.exe - that will always be the up to date version and is a lot easier if you just want the application and not the source code.
 
 What's next?
 ------------
