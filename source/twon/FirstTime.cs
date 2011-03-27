@@ -22,6 +22,7 @@ namespace WindowsFormsApplication1
         {
             Properties.Settings.Default.firstTime = "false";
             Properties.Settings.Default.Save();
+            form1.Enabled = true;
             this.Close();
         }
     }

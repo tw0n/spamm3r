@@ -24,6 +24,7 @@ namespace WindowsFormsApplication1
                 FirstTime ftime = new FirstTime();
                 ftime.form1 = this;
                 ftime.Show();
+                this.Enabled = false;
             }
 
             verisonLabel.Text = Properties.Settings.Default.version;
