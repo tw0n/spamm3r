@@ -3,7 +3,7 @@ Changelog
 
 2011-03-27 v1.0.2:
 ------------------
-- A couple bug fixes created from the 'First Time' form.
+- A couple bug fixes that were created from the 'First Time' form.
 
 2011-03-27 v1.0.1:
 ------------------
