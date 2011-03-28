@@ -1,6 +1,9 @@
 Changelog
 =========
 
+###2011-03-28 v1.0.5:
+- Added try/catches for incorrect emails and SMTP problems, program won't lag out if something is done incorrect.
+
 ###2011-03-27 v1.0.4:
 - Problem with the SMTP port has been fixed
 
