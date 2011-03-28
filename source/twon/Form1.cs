@@ -54,13 +54,50 @@ namespace WindowsFormsApplication1
                 sendButton.Enabled = false;
                 
                 MailMessage mail = new MailMessage();
-                mail.From = new System.Net.Mail.MailAddress(fromEmail, fromName);
-                SmtpClient smtp = new SmtpClient();
-                smtp.Port = 587;
-                smtp.Host = "relay.jangosmtp.net";
-                mail.To.Add(new MailAddress(toEmail));
-                mail.Body = msg;
-                smtp.Send(mail);
+                try
+                {
+                    mail.From = new System.Net.Mail.MailAddress(fromEmail, fromName);
+                }
+                catch
+                {
+                    if ((MessageBox.Show("Put in a proper email ;]") == DialogResult.OK))
+                    {
+                        sendTimer.Enabled = false;
+                        toBox.Enabled = true;
+                        fromBox.Enabled = true;
+                        fromNameBox.Enabled = true;
+                        subjectBox.Enabled = true;
+                        msgBox.Enabled = true;
+                        sendButton.Enabled = true;
+                        progressBar1.Value = 0;
+                    }
+                    else
+                    {
+                        SmtpClient smtp = new SmtpClient();
+                        smtp.Port = 587;
+                        smtp.Host = "relay.jangosmtp.net";
+                        mail.To.Add(new MailAddress(toEmail));
+                        mail.Body = msg;
+                        try
+                        {
+                            smtp.Send(mail);
+                        }
+                        catch
+                        {
+                            if ((MessageBox.Show("Message wasn't sent :[ Did you setup your JangoSMTP account?") == DialogResult.OK))
+                            {
+                                sendTimer.Enabled = false;
+                                toBox.Enabled = true;
+                                fromBox.Enabled = true;
+                                fromNameBox.Enabled = true;
+                                subjectBox.Enabled = true;
+                                msgBox.Enabled = true;
+                                sendButton.Enabled = true;
+                                progressBar1.Value = 0;
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -73,7 +110,7 @@ namespace WindowsFormsApplication1
 
             if (progressBar1.Value == 1799)
             {
-                if ((MessageBox.Show("Message sent!") == DialogResult.OK))
+                if ((MessageBox.Show("Message sent! :]") == DialogResult.OK))
                 {
                     sendTimer.Enabled = false;
                     toBox.Enabled = true;
