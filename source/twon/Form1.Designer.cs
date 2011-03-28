@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1
 {
-    partial class twon
+    partial class spamm3r
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(twon));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(spamm3r));
             this.infoBox = new System.Windows.Forms.GroupBox();
             this.fromNameLabel = new System.Windows.Forms.Label();
             this.fromNameBox = new System.Windows.Forms.TextBox();
@@ -238,7 +238,7 @@
             this.updatesLabel.Text = "For updates and more, visit the repo:\r\n https://github.com/tw0n/spamm3r";
             this.updatesLabel.Click += new System.EventHandler(this.updatesLabel_Click);
             // 
-            // twon
+            // spamm3r
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -253,7 +253,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "twon";
+            this.Name = "spamm3r";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "tw0n spamm3r";
             this.infoBox.ResumeLayout(false);
             this.infoBox.PerformLayout();

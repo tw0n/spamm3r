@@ -16,7 +16,7 @@ C:\Users\will\Documents\Visual Studio 2010\Projects\twon\source\twon\bin\Debug\t
 C:\Users\will\Documents\Visual Studio 2010\Projects\twon\source\twon\bin\Debug\twon.pdb
 C:\Users\will\Documents\Visual Studio 2010\Projects\twon\source\twon\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\will\Documents\Visual Studio 2010\Projects\twon\source\twon\obj\x86\Debug\WindowsFormsApplication1.FirstTime.resources
-C:\Users\will\Documents\Visual Studio 2010\Projects\twon\source\twon\obj\x86\Debug\WindowsFormsApplication1.twon.resources
 C:\Users\will\Documents\Visual Studio 2010\Projects\twon\source\twon\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\will\Documents\Visual Studio 2010\Projects\twon\source\twon\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\will\Documents\Visual Studio 2010\Projects\twon\source\twon\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\will\Documents\Visual Studio 2010\Projects\twon\source\twon\obj\x86\Debug\WindowsFormsApplication1.spamm3r.resources

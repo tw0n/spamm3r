@@ -15,7 +15,7 @@ namespace WindowsFormsApplication1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new twon());
+            Application.Run(new spamm3r());
         }
     }
 }

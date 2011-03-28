@@ -13,9 +13,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class twon : Form
+    public partial class spamm3r : Form
     {
-        public twon()
+        public spamm3r()
         {
             InitializeComponent();
 
@@ -56,8 +56,8 @@ namespace WindowsFormsApplication1
                 MailMessage mail = new MailMessage();
                 mail.From = new System.Net.Mail.MailAddress(fromEmail, fromName);
                 SmtpClient smtp = new SmtpClient();
-                smtp.Port = 25;
-                smtp.Host = "mail.telus.net";
+                smtp.Port = 587;
+                smtp.Host = "relay.jangosmtp.net";
                 mail.To.Add(new MailAddress(toEmail));
                 mail.Body = msg;
                 smtp.Send(mail);
